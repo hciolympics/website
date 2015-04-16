@@ -83,14 +83,37 @@
           </div>
         </div>-->
     <br><br><br><br><br><br><br><br>
-    <h2>Choose which category you would like to compare:</h2>
-    <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
- Athlete
-</button>
-<button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
-  Country
-</button>
 
+    <h2>Select two athletes to compare:</h2>
+
+    <div class="btn-group" role="group" aria-label="...">
+  
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+      Athlete 1
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Dropdown link</a></li>
+      <li><a href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+
+  <div  class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+      Athlete 2
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Dropdown link</a></li>
+      <li><a href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+</div>
+
+<button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+ Submit
+</button>
   
 </div><!-- /.container -->
 	<!-- script references -->
